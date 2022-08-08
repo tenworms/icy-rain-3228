@@ -2,7 +2,7 @@
 
 Base repository for B2 assessments and diagnostics.
 
-This repository requires and has been tested on Ruby v2.5.3 and is based on Rails 5.2.5
+This repository requires and has been tested on Ruby v2.7.4 and is based on Rails 5.2.8
 
 RSpec and Shoulda-Matchers have been installed and set up.
 
@@ -11,8 +11,10 @@ RSpec and Shoulda-Matchers have been installed and set up.
 1. fork this repo
 2. clone your fork
 3. `git clone <paste_repo>`
-4. `cd b2-mid-mod`
+4. `cd <repo-name>`
 5. `bundle install`
+6. `rails db:{drop,create,migrate,seed}`
+
 
 ## Instructions
 
@@ -29,7 +31,6 @@ Once the time for the assessment is up (and not before), push your code to your 
 * Your Name
 * How far you got through the user stories
   * Please include any user stories you partially complete, for example "completed user stories 1 and 2, really close to completing 3"
-* A reflection on how you felt you did with this challenge
 
 ## Requirements
 
